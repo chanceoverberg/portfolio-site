@@ -1,11 +1,7 @@
-import ToggleColorMode from './components/ToggleColorMode';
+import Home from './components/Home';
 
 function App() {
-  return (
-    <>
-      <ToggleColorMode />
-    </>
-  );
+  return <Home />;
 }
 
 export default App;
