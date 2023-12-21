@@ -6,7 +6,7 @@ const ToggleColorMode: FC = () => {
     const {colorMode, toggleColorMode} = useColorMode();
 
     return (
-        <Button onClick={() => toggleColorMode()} pos="absolute" top="0" right="0" m="1rem">
+        <Button onClick={() => toggleColorMode()} pos="absolute" top="0" right="0" m="1rem" variant='outline'>
             {colorMode === "dark" ? <SunIcon /> : <MoonIcon />}
         </Button>
     )
