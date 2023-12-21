@@ -1,12 +1,12 @@
 import { Box } from "@chakra-ui/react";
 import { FC } from "react";
 
-const Home: FC = () => {
+const Projects: FC = () => {
     return (
         <Box textAlign='center' fontSize='5xl' pt='3rem'>
-            Home
+            Projects
         </Box>
     )
 };
 
-export default Home;
+export default Projects;
