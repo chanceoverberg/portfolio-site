@@ -6,9 +6,9 @@ const Work: FC = () => {
     
     return (
         <Box fontSize='3xl' pt='3rem' pl='1rem' h='100vh'>
-            <Stack fontSize='3xl' pr='1rem' pt="1rem">
+            <Stack fontSize='3xl' pr='1rem' pt='1rem' pb='30px'>
                 <Card variant='outline'>
-                    <CardHeader bg={bg} borderRadius="5px 5px 0px 0px">Epic Systems</CardHeader>
+                    <CardHeader bg={bg} borderRadius='5px 5px 0px 0px'>Epic Systems</CardHeader>
                     <CardBody pt='10px'>
                         <Text fontSize='2xl'>Full Stack Engineer | May 2023 - Present</Text>
                         <Text fontSize='xl'>
@@ -16,7 +16,7 @@ const Work: FC = () => {
                             our teleconferencing web app, built with React and ASP.Net and used for
                             over 1 million medical video visits each month
                         </Text>
-                        <UnorderedList fontSize='xl' pl='10px' pb="15px">
+                        <UnorderedList fontSize='xl' pl='10px' pb='15px'>
                             <ListItem>Lead developer on current project to put our WebRTC vendor implementation behind an 
                                 abstraction layer, giving us the ability to swap vendors at any time.
                             </ListItem>
@@ -36,7 +36,7 @@ const Work: FC = () => {
                     </CardBody>
                 </Card>
                 <Card variant='outline'>
-                    <CardHeader bg={bg} borderRadius="5px 5px 0px 0px">Miami University</CardHeader>
+                    <CardHeader bg={bg} borderRadius='5px 5px 0px 0px'>Miami University</CardHeader>
                     <CardBody pt='10px' fontSize='2xl'>
                         <Text>Assistive Technology Student Associate | Sept 2018 - Jan 2019</Text>
                         <Text fontSize='xl'>

@@ -14,7 +14,7 @@ const Links: FC<ILinksProps> = (props: ILinksProps) => {
         <>
             {
                 isLargerThan900 ? 
-                    <Breadcrumb separator='' fontSize='20px' pos="absolute" top="0" left="0" m="1rem">
+                    <Breadcrumb separator='' fontSize='20px' pos='absolute' top='0' left='0' m='1rem'>
                         <BreadcrumbItem>
                             <BreadcrumbLink onClick={() => changePage("HOME")}>Home</BreadcrumbLink>
                         </BreadcrumbItem>
@@ -38,7 +38,7 @@ const Links: FC<ILinksProps> = (props: ILinksProps) => {
                     </Breadcrumb>
                 : 
                     <Menu>
-                        <MenuButton as={IconButton} icon={<HamburgerIcon />} variant='outline' pos="absolute" top="0" left="0" m="1rem" />
+                        <MenuButton as={IconButton} icon={<HamburgerIcon />} variant='outline' pos='absolute' top='0' left='0' m='1rem' />
                         <MenuList>
                             <MenuItem onClick={() => changePage("HOME")}>Home</MenuItem>
                             <MenuItem onClick={() => changePage("WORK")}>Work</MenuItem>

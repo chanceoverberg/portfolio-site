@@ -4,9 +4,9 @@ import { FC } from "react";
 
 const Projects: FC = () => {
     return (
-        <Box pt='3rem' pl='1rem' pr="1rem" h='100vh'>
-            <Wrap justify="center" pt="1rem">
-            <Card maxW="md">
+        <Box pt='3rem' pl='1rem' pr='1rem' h='100vh'>
+            <Wrap justify='center' pt='1rem' pb='30px'>
+                <Card maxW='md'>
                     <CardHeader>
                         <Heading size='md'>Groupoll</Heading>
                     </CardHeader>
@@ -17,13 +17,13 @@ const Projects: FC = () => {
                         </Text>
                     </CardBody>
                     <CardFooter>
-                        <Button as="a" href="https://github.com/chanceoverberg/groupoll" target="_blank">
+                        <Button as='a' href='https://github.com/chanceoverberg/groupoll' target='_blank'>
                             View in GitHub
                             <ExternalLinkIcon ml='2px' />
                         </Button>
                     </CardFooter>
                 </Card>
-                <Card maxW="md">
+                <Card maxW='md'>
                     <CardHeader>
                         <Heading size='md'>SpaceTraders Client</Heading>
                     </CardHeader>
@@ -33,13 +33,13 @@ const Projects: FC = () => {
                         </Text>
                     </CardBody>
                     <CardFooter>
-                        <Button  as="a" href="https://github.com/chanceoverberg/spacetraders" target="_blank">
+                        <Button  as='a' href='https://github.com/chanceoverberg/spacetraders' target='_blank'>
                             View in GitHub
                             <ExternalLinkIcon ml='2px' />
                         </Button>
                     </CardFooter>
                 </Card>
-                <Card maxW="md">
+                <Card maxW='md'>
                     <CardHeader>
                         <Heading size='md'>Portfolio Website</Heading>
                     </CardHeader>
@@ -50,7 +50,7 @@ const Projects: FC = () => {
                         </Text>
                     </CardBody>
                     <CardFooter>
-                        <Button as="a" href="https://github.com/chanceoverberg/portfolio-site" target="_blank">
+                        <Button as='a' href='https://github.com/chanceoverberg/portfolio-site' target='_blank'>
                             View in GitHub
                             <ExternalLinkIcon ml='2px' />
                         </Button>
