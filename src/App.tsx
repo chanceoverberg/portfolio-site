@@ -1,30 +1,46 @@
-import { FC, useMemo, useState } from 'react';
+import { FC, useEffect, useMemo, useState } from 'react';
 import Home from './components/Home';
 import Work from './components/Work';
 import Projects from './components/Projects';
 import { Box } from '@chakra-ui/react';
 import Links from './components/Links';
 import ToggleColorMode from './components/ToggleColorMode';
+import Education from './components/Education';
 
 const App: FC = () => {
   const [currentPage, setCurrentPage] = useState("HOME");
+  const [title, setTitle] = useState("Home | Chance Overberg");
 
   const changePage = (page: string): void => {
       setCurrentPage(page);
   }
 
+  useEffect (() => {
+    document.title = `${title} | Chance Overberg`;
+  }, [title]);
+
   const page: JSX.Element = useMemo(() => {
       switch(currentPage) {
           case "HOME": {
+            setTitle("Home");
             return <Home />;
           }
           case "WORK": {
-              return <Work />;
+            setTitle("Work");
+            return <Work />;
           }
           case "PROJECTS": {
-              return <Projects />;
+            setTitle("Projects");
+            return <Projects />;
           }
-          default: return <Home />;
+          case "EDUCATION": {
+            setTitle("Education");
+            return <Education />;
+          }
+          default: {
+            setTitle("Home");
+            return <Home />
+          }
       }
   }, [currentPage]);
   

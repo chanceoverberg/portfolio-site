@@ -1,23 +1,25 @@
-import { Box, Card, CardBody, CardHeader, Center, Container, Divider, Heading, ListItem, Stack, Text, UnorderedList, useColorModeValue } from "@chakra-ui/react";
+import { Box, Card, CardBody, CardHeader, ListItem, Stack, Text, UnorderedList, useColorModeValue } from "@chakra-ui/react";
 import { FC } from "react";
 
 const Work: FC = () => {
-    const bg = useColorModeValue('gray.400', 'blue.800')
+    const bg = useColorModeValue('gray.300', 'gray.700')
     
     return (
-        <Box fontSize='5xl' pt='3rem' pl='1rem' h='100vh'>
-            Work
-            <Stack fontSize='3xl' pr='1rem'>
+        <Box fontSize='3xl' pt='3rem' pl='1rem' h='100vh'>
+            <Stack fontSize='3xl' pr='1rem' pt="1rem">
                 <Card variant='outline'>
-                <CardHeader bg={bg}>Epic</CardHeader>
+                    <CardHeader bg={bg} borderRadius="5px 5px 0px 0px">Epic Systems</CardHeader>
                     <CardBody pt='10px'>
-                        <Text fontSize='2xl'>Software Developer | May 2023 - Present</Text>
+                        <Text fontSize='2xl'>Full Stack Engineer | May 2023 - Present</Text>
                         <Text fontSize='xl'>
-                            Full-stack developer on the Telehealth team with a focus on
-                            our teleconferencing solution, built with React and ASP.Net, which allows
-                            patients and providers to perform over 1 million monthly video visits.
+                            Full stack engineer on the Telehealth team with a focus on
+                            our teleconferencing web app, built with React and ASP.Net and used for
+                            over 1 million medical video visits each month
                         </Text>
                         <UnorderedList fontSize='xl' pl='10px' pb="15px">
+                            <ListItem>Lead developer on current project to put our WebRTC vendor implementation behind an 
+                                abstraction layer, giving us the ability to swap vendors at any time.
+                            </ListItem>
                             <ListItem>Create new microservices and enhance existing ones</ListItem>
                             <ListItem>Develop fixes and enhancements for the front and back end</ListItem>
                             <ListItem>Technology: React, Redux, ASP.NET, Azure, CosmosDB, Kubernetes, Docker</ListItem>
@@ -34,9 +36,9 @@ const Work: FC = () => {
                     </CardBody>
                 </Card>
                 <Card variant='outline'>
-                    <CardHeader bg={bg}>Miami University</CardHeader>
+                    <CardHeader bg={bg} borderRadius="5px 5px 0px 0px">Miami University</CardHeader>
                     <CardBody pt='10px' fontSize='2xl'>
-                        <Text>Assistive Technology Student Associate | 2018-2019</Text>
+                        <Text>Assistive Technology Student Associate | Sept 2018 - Jan 2019</Text>
                         <Text fontSize='xl'>
                             Provide technical assistance functions, perform administrative duties,
                             and train others in the use of assistive technology.

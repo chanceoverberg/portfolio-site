@@ -8,18 +8,21 @@ interface ILinksProps {
 
 const Links: FC<ILinksProps> = (props: ILinksProps) => {
     const { changePage } = props;
-    const [isLargerThan800] = useMediaQuery('(min-width: 900px)');
+    const [isLargerThan900] = useMediaQuery('(min-width: 900px)');
 
     return (
         <>
             {
-                isLargerThan800 ? 
+                isLargerThan900 ? 
                     <Breadcrumb separator='' fontSize='20px' pos="absolute" top="0" left="0" m="1rem">
                         <BreadcrumbItem>
                             <BreadcrumbLink onClick={() => changePage("HOME")}>Home</BreadcrumbLink>
                         </BreadcrumbItem>
                         <BreadcrumbItem>
                             <BreadcrumbLink onClick={() => changePage("WORK")}>Work</BreadcrumbLink>
+                        </BreadcrumbItem>
+                        <BreadcrumbItem>
+                            <BreadcrumbLink onClick={() => changePage("EDUCATION")}>Education</BreadcrumbLink>
                         </BreadcrumbItem>
                         <BreadcrumbItem>
                             <BreadcrumbLink onClick={() => changePage("PROJECTS")}>Projects</BreadcrumbLink>
@@ -39,6 +42,7 @@ const Links: FC<ILinksProps> = (props: ILinksProps) => {
                         <MenuList>
                             <MenuItem onClick={() => changePage("HOME")}>Home</MenuItem>
                             <MenuItem onClick={() => changePage("WORK")}>Work</MenuItem>
+                            <MenuItem onClick={() => changePage("EDUCATION")}>Education</MenuItem>
                             <MenuItem onClick={() => changePage("PROJECTS")}>Projects</MenuItem>
                             <MenuItem as='a' href='https://github.com/chanceoverberg/' target='_blank'>GitHub<ExternalLinkIcon ml='2px' /></MenuItem>
                             <MenuItem as='a' href='https://www.linkedin.com/in/chanceoverberg/' target='_blank'>LinkedIn<ExternalLinkIcon ml='2px' /></MenuItem>
