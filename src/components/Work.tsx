@@ -13,25 +13,29 @@ const Work: FC = () => {
                         <Text fontSize='2xl'>Full Stack Engineer | May 2023 - Present</Text>
                         <Text fontSize='xl'>
                             Full stack engineer on the Telehealth team with a focus on
-                            our teleconferencing web app, built with React and ASP.Net and used for
-                            over 1 million medical video visits each month
+                            our teleconferencing web app, built with React and .NET and used for
+                            over 1.3 million medical video visits each month.
                         </Text>
                         <UnorderedList fontSize='xl' pl='10px' pb='15px'>
                             <ListItem>Lead developer on current project to put our WebRTC vendor implementation behind an 
-                                abstraction layer, giving us the ability to swap vendors at any time.
+                                abstraction layer, reducing our reliance on any given vendor's specific APIs.
                             </ListItem>
-                            <ListItem>Create new microservices and enhance existing ones</ListItem>
-                            <ListItem>Develop fixes and enhancements for the front and back end</ListItem>
-                            <ListItem>Technology: React, Redux, ASP.NET, Azure, CosmosDB, Kubernetes, Docker</ListItem>
+                            <ListItem>Create new microservices and enhance existing ones.</ListItem>
+                            <ListItem>Develop fixes and enhancements for the front and back end.</ListItem>
+                            <ListItem>Technology: React, Redux, .NET, Azure, CosmosDB, Kubernetes, Docker</ListItem>
                             <ListItem>Languages: TypeScript, C#, JavaScript</ListItem>
                         </UnorderedList>
                         <Text pt='10px' fontSize='2xl'>Quality Manager | July 2019 - May 2023</Text>
                         <Text fontSize='xl'>
-                            Quality Manager on the Telehealth team.
+                            Quality Manager on the Telehealth team with a focus on testing our teleconferencing and patient portal web apps, both built with React and .NET. 
+                            Our patient portal is used by over 160 million patients worldwide.
                         </Text>
                         <UnorderedList fontSize='xl' pl='10px'>
-                            <ListItem>Test, design, and assist in the implementation of the most used healthcare software in the US</ListItem>
-                            <ListItem>Perform automated (C# Selenium scripts) and manual testing</ListItem>
+                            <ListItem>Test, design, and assist in the implementation of the most used healthcare software in the US.</ListItem>
+                            <ListItem>Perform automated (C# Selenium scripts) and manual testing.</ListItem>
+                            <ListItem>Manage projects throughout the entire lifecycle, including design, development, usability studies, testing, and release.</ListItem>
+                            <ListItem>Write test plans to efficiently and effectively test as many areas as possible and reduce the risk of bugs and regressions.</ListItem>
+                            <ListItem>Investigate released issues and lead root cause analysis (RCA) meetings and processes.</ListItem>
                         </UnorderedList>
                     </CardBody>
                 </Card>
@@ -44,8 +48,8 @@ const Work: FC = () => {
                             and train others in the use of assistive technology.
                         </Text>
                         <UnorderedList fontSize='xl' pl='10px'>
-                            <ListItem>Write, record, and analyze technical documents</ListItem>
-                            <ListItem>Create alternative text files and closed captioning files for videos</ListItem>
+                            <ListItem>Write, record, and analyze technical documents.</ListItem>
+                            <ListItem>Create alternative text files and closed captioning files for videos.</ListItem>
                         </UnorderedList>
                     </CardBody>
                 </Card>

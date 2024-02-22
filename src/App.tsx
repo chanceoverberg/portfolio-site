@@ -6,6 +6,7 @@ import { Box } from '@chakra-ui/react';
 import Links from './components/Links';
 import ToggleColorMode from './components/ToggleColorMode';
 import Education from './components/Education';
+import Skills from './components/Skills';
 
 const App: FC = () => {
   const [currentPage, setCurrentPage] = useState("HOME");
@@ -28,6 +29,10 @@ const App: FC = () => {
           case "WORK": {
             setTitle("Work");
             return <Work />;
+          }
+          case "SKILLS": {
+            setTitle("Skills");
+            return <Skills />;
           }
           case "PROJECTS": {
             setTitle("Projects");

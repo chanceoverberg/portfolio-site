@@ -34,7 +34,7 @@ const Education: FC = () => {
                     </CardBody>
                 </Card>
                 <Card variant='outline'>
-                    <CardHeader bg={bg} borderRadius='5px 5px 0px 0px'>Ritsumeikan University - Kyoto, Japan</CardHeader>
+                    <CardHeader bg={bg} borderRadius='5px 5px 0px 0px'>Ritsumeikan University (立命館大学) - Kyoto, Japan</CardHeader>
                     <CardBody pt='10px' fontSize='2xl'>
                         <Text>One semester of study abroad | March 2018 - July 2018</Text>
                         <UnorderedList fontSize='xl' pl='10px'>
@@ -43,7 +43,7 @@ const Education: FC = () => {
                     </CardBody>
                 </Card>
                 <Card variant='outline'>
-                    <CardHeader bg={bg} borderRadius='5px 5px 0px 0px'>Sophia University - Tokyo, Japan</CardHeader>
+                    <CardHeader bg={bg} borderRadius='5px 5px 0px 0px'>Sophia University (上智大学) - Tokyo, Japan</CardHeader>
                     <CardBody pt='10px' fontSize='2xl'>
                         <Text>One semester of study abroad | Sept 2017 - Jan 2018</Text>
                         <UnorderedList fontSize='xl' pl='10px'>

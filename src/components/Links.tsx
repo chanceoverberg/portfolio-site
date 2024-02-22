@@ -22,6 +22,9 @@ const Links: FC<ILinksProps> = (props: ILinksProps) => {
                             <BreadcrumbLink onClick={() => changePage("WORK")}>Work</BreadcrumbLink>
                         </BreadcrumbItem>
                         <BreadcrumbItem>
+                            <BreadcrumbLink onClick={() => changePage("SKILLS")}>Skills</BreadcrumbLink>
+                        </BreadcrumbItem>
+                        <BreadcrumbItem>
                             <BreadcrumbLink onClick={() => changePage("EDUCATION")}>Education</BreadcrumbLink>
                         </BreadcrumbItem>
                         <BreadcrumbItem>
@@ -42,6 +45,7 @@ const Links: FC<ILinksProps> = (props: ILinksProps) => {
                         <MenuList>
                             <MenuItem onClick={() => changePage("HOME")}>Home</MenuItem>
                             <MenuItem onClick={() => changePage("WORK")}>Work</MenuItem>
+                            <MenuItem onClick={() => changePage("SKILLS")}>Skills</MenuItem>
                             <MenuItem onClick={() => changePage("EDUCATION")}>Education</MenuItem>
                             <MenuItem onClick={() => changePage("PROJECTS")}>Projects</MenuItem>
                             <MenuItem as='a' href='https://github.com/chanceoverberg/' target='_blank'>GitHub<ExternalLinkIcon ml='2px' /></MenuItem>
