@@ -1,7 +1,7 @@
 {
   "name": "portfolio-site",
   "version": "0.1.0",
-  "homepage": "https://chanceoverberg.github.io/portfolio-site",
+  "homepage": "https://www.chanceoverberg.com",
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",
