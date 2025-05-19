@@ -26,6 +26,7 @@ const Skills: FC = () => {
         <CardBody>
           <UnorderedList fontSize="xl" pl="10px" pb="15px">
             <ListItem>TypeScript</ListItem>
+            <ListItem>Go</ListItem>
             <ListItem>C#</ListItem>
             <ListItem>JavaScript</ListItem>
             <ListItem>Java</ListItem>
@@ -66,6 +67,7 @@ const Skills: FC = () => {
         </CardHeader>
         <CardBody>
           <UnorderedList fontSize="xl" pl="10px" pb="15px">
+            <ListItem>MongoDB (NoSQL)</ListItem>
             <ListItem>Azure CosmosDB (NoSQL)</ListItem>
             <ListItem>PlanetScale (MySQL)</ListItem>
             <ListItem>Prisma (TypeScript ORM)</ListItem>

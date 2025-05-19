@@ -32,7 +32,7 @@ const Projects: FC = () => {
               View in GitHub
               <ExternalLinkIcon ml="2px" />
             </Button>
-            <Button marginLeft={"10px"} as="a" href="https://www.groupoll.net" target="_blank">
+            <Button marginLeft={"10px"} as="a" href="https://groupoll.vercel.app/" target="_blank">
               Visit Site
               <ExternalLinkIcon ml="2px" />
             </Button>

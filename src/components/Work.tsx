@@ -19,10 +19,18 @@ const Work: FC = () => {
       <Stack fontSize="3xl" pr="1rem" pt="1rem" pb="30px">
         <Card variant="outline">
           <CardHeader bg={bg} borderRadius="5px 5px 0px 0px">
-            Epic Systems
+            EMC Healthcare - Tokyo, Japan
           </CardHeader>
           <CardBody pt="10px">
-            <Text fontSize="2xl">Full Stack Engineer | Aug 2022 - Present</Text>
+            <Text fontSize="2xl">Full Stack Engineer | Nov 2024 - Present</Text>
+          </CardBody>
+        </Card>
+        <Card variant="outline">
+          <CardHeader bg={bg} borderRadius="5px 5px 0px 0px">
+            Epic Systems - Madison, WI, USA
+          </CardHeader>
+          <CardBody pt="10px">
+            <Text fontSize="2xl">Full Stack Engineer | Aug 2022 - Oct 2024</Text>
             <Text fontSize="xl">
               Full stack engineer on the Telehealth team with a focus on our teleconferencing web
               app, built with React and .NET and used for over 1.3 million medical video visits each
@@ -71,7 +79,7 @@ const Work: FC = () => {
         </Card>
         <Card variant="outline">
           <CardHeader bg={bg} borderRadius="5px 5px 0px 0px">
-            Miami University
+            Miami University - Oxford, OH, USA
           </CardHeader>
           <CardBody pt="10px" fontSize="2xl">
             <Text>Assistive Technology Student Associate | Sept 2018 - Jan 2019</Text>
