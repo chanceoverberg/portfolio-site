@@ -23,6 +23,32 @@ const Work: FC = () => {
           </CardHeader>
           <CardBody pt="10px">
             <Text fontSize="2xl">Full Stack Engineer | Nov 2024 - Present</Text>
+            <Text fontSize="xl">
+              Build and improve our monitoring and call center system for nursing care facilities.
+              Create microservices with Go to expand functionality and increase our application's
+              performance.
+            </Text>
+            <UnorderedList fontSize="xl" pl="10px" pb="15px">
+              <ListItem>
+                Reduced implementation costs and maintenance hours by creating a Go microservice to
+                process and proxy all camera.
+              </ListItem>
+              <ListItem>
+                Created a Go microservice to seamlessly record and play back MQTT messages in any
+                environment, enabling us to simulate production environments while developing and
+                testing so we can catch bugs sooner.
+              </ListItem>
+              <ListItem>
+                Add an auto-archive system to our Node.js application, reducing the size and
+                increasing the performance of our database and preserving data for future use.
+              </ListItem>
+              <ListItem>
+                Drastically improve our React app's performance, reducing resource usage and
+                increasing mobile battery life.
+              </ListItem>
+              <ListItem>Technology: React, Node.js, MongoDB, Docker, Kubernetes</ListItem>
+              <ListItem>Languages: TypeScript, Go</ListItem>
+            </UnorderedList>
           </CardBody>
         </Card>
         <Card variant="outline">
@@ -44,7 +70,7 @@ const Work: FC = () => {
               <ListItem>Create new microservices and enhance existing ones.</ListItem>
               <ListItem>Develop fixes and enhancements for the front and back end.</ListItem>
               <ListItem>
-                Technology: React, Redux, .NET, Azure, CosmosDB, Kubernetes, Docker
+                Technology: React, Redux, .NET, Azure, CosmosDB, Docker, Kubernetes
               </ListItem>
               <ListItem>Languages: TypeScript, C#, JavaScript</ListItem>
             </UnorderedList>

@@ -40,10 +40,11 @@ const Skills: FC = () => {
         </CardHeader>
         <CardBody>
           <UnorderedList fontSize="xl" pl="10px" pb="15px">
-            <ListItem>Next.js</ListItem>
             <ListItem>React</ListItem>
-            <ListItem>React Native</ListItem>
+            <ListItem>Next.js</ListItem>
+            <ListItem>Node.js</ListItem>
             <ListItem>.NET</ListItem>
+            <ListItem>React Native</ListItem>
           </UnorderedList>
         </CardBody>
       </Card>
@@ -54,10 +55,10 @@ const Skills: FC = () => {
         <CardBody>
           <UnorderedList fontSize="xl" pl="10px" pb="15px">
             <ListItem>Git</ListItem>
-            <ListItem>Microsoft Azure</ListItem>
+            <ListItem>Linux</ListItem>
             <ListItem>Docker</ListItem>
             <ListItem>Kubernetes</ListItem>
-            <ListItem>Linux</ListItem>
+            <ListItem>Microsoft Azure</ListItem>
           </UnorderedList>
         </CardBody>
       </Card>
@@ -82,6 +83,7 @@ const Skills: FC = () => {
           <UnorderedList fontSize="xl" pl="10px" pb="15px">
             <ListItem>Prometheus</ListItem>
             <ListItem>Grafana</ListItem>
+            <ListItem>Loki</ListItem>
           </UnorderedList>
         </CardBody>
       </Card>
