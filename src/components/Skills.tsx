@@ -27,6 +27,7 @@ const Skills: FC = () => {
           <UnorderedList fontSize="xl" pl="10px" pb="15px">
             <ListItem>TypeScript</ListItem>
             <ListItem>Go</ListItem>
+            <ListItem>Python</ListItem>
             <ListItem>C#</ListItem>
             <ListItem>JavaScript</ListItem>
             <ListItem>Java</ListItem>
@@ -44,7 +45,6 @@ const Skills: FC = () => {
             <ListItem>Next.js</ListItem>
             <ListItem>Node.js</ListItem>
             <ListItem>.NET</ListItem>
-            <ListItem>React Native</ListItem>
           </UnorderedList>
         </CardBody>
       </Card>
@@ -71,6 +71,7 @@ const Skills: FC = () => {
             <ListItem>MongoDB (NoSQL)</ListItem>
             <ListItem>Azure CosmosDB (NoSQL)</ListItem>
             <ListItem>PlanetScale (MySQL)</ListItem>
+            <ListItem>Supabase (PostgreSQL)</ListItem>
             <ListItem>Prisma (TypeScript ORM)</ListItem>
           </UnorderedList>
         </CardBody>

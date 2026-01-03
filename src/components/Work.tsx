@@ -25,29 +25,37 @@ const Work: FC = () => {
             <Text fontSize="2xl">Full Stack Engineer | Nov 2024 - Present</Text>
             <Text fontSize="xl">
               Build and improve our monitoring and call center system for nursing care facilities.
-              Create microservices with Go to expand functionality and increase our application's
-              performance.
+              Develop distributed backend services to expand functionality and increase our
+              application's performance.
             </Text>
             <UnorderedList fontSize="xl" pl="10px" pb="15px">
               <ListItem>
-                Reduced implementation costs and maintenance hours by creating a Go microservice to
-                process and proxy all camera.
+                Reduced implementation costs and maintenance hours by creating a Go service to
+                process and proxy all RTSP camera streams as WebRTC streams through a single server,
+                allowing us to move from Raspberry Pi cameras to cheaper, more reliable IP cameras.
               </ListItem>
               <ListItem>
-                Created a Go microservice to seamlessly record and play back MQTT messages in any
-                environment, enabling us to simulate production environments while developing and
-                testing so we can catch bugs sooner.
+                Developed a Python FastAPI service that utilizes ONVIF and DVRIP protocols to allow
+                discovering, configuring, and managing IP cameras from our client application via
+                HTTP.
               </ListItem>
               <ListItem>
-                Add an auto-archive system to our Node.js application, reducing the size and
-                increasing the performance of our database and preserving data for future use.
+                Developed tooling to record and replay high-volume MQTT traffic (more than 60K
+                messages/min) from production environments, enabling realistic load testing and
+                earlier detection of race conditions and performance regressions.
               </ListItem>
               <ListItem>
-                Drastically improve our React app's performance, reducing resource usage and
-                increasing mobile battery life.
+                Added backend data lifecycle management to our Node.js application, reducing active
+                dataset size, improving query performance, and preserving historical data for
+                downstream analytics.
+              </ListItem>
+              <ListItem>
+                Optimized frontend rendering and data flow to reduce unnecessary network-driven
+                updates, significantly improving responsiveness and mobile battery life under high
+                event throughput.
               </ListItem>
               <ListItem>Technology: React, Node.js, MongoDB, Docker, Kubernetes</ListItem>
-              <ListItem>Languages: TypeScript, Go</ListItem>
+              <ListItem>Languages: TypeScript, Go, Python</ListItem>
             </UnorderedList>
           </CardBody>
         </Card>
@@ -58,16 +66,21 @@ const Work: FC = () => {
           <CardBody pt="10px">
             <Text fontSize="2xl">Full Stack Engineer | Aug 2022 - Oct 2024</Text>
             <Text fontSize="xl">
-              Full stack engineer on the Telehealth team with a focus on our teleconferencing web
-              app, built with React and .NET and used for over 1.3 million medical video visits each
-              month.
+              Design, write, and implement fixes and enhancements for our videoconferencing web app
+              and its services, built with .NET and React, and used for over 4 million medical video
+              visits each month.
             </Text>
             <UnorderedList fontSize="xl" pl="10px" pb="15px">
               <ListItem>
-                Lead developer on current project to put our WebRTC vendor implementation behind an
-                abstraction layer, reducing our reliance on any given vendor's specific APIs.
+                Overhauled our front and back end WebRTC API consumption code by creating an
+                abstraction layer, giving us the ability to swap WebRTC SDK vendors at any point,
+                increasing flexibility and reliability. Also improved the performance of our
+                application by 20%.
               </ListItem>
-              <ListItem>Create new microservices and enhance existing ones.</ListItem>
+              <ListItem>
+                Fully implement WebRTC SDKs and APIs and create our own REST APIs to interact with
+                them.
+              </ListItem>
               <ListItem>Develop fixes and enhancements for the front and back end.</ListItem>
               <ListItem>
                 Technology: React, Redux, .NET, Azure, CosmosDB, Docker, Kubernetes
