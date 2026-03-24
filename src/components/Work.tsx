@@ -24,35 +24,38 @@ const Work: FC = () => {
           <CardBody pt="10px">
             <Text fontSize="2xl">Full Stack Engineer | Nov 2024 - Present</Text>
             <Text fontSize="xl">
-              Build and improve our monitoring and call center system for nursing care facilities.
-              Develop distributed backend services to expand functionality and increase our
-              application's performance.
+              Build and operate distributed backend services for a high-availability patient
+              monitoring and operational support platform.
             </Text>
             <UnorderedList fontSize="xl" pl="10px" pb="15px">
               <ListItem>
-                Reduced implementation costs and maintenance hours by creating a Go service to
-                process and proxy all RTSP camera streams as WebRTC streams through a single server,
-                allowing us to move from Raspberry Pi cameras to cheaper, more reliable IP cameras.
+                Design and implement automated data lifecycle management for a Node.js/MongoDB
+                application, archiving ~100K documents/day (~36.5M/year) via batched transactions
+                with configurable retention policies. Reduce active dataset size by ~80%, yielding
+                an estimated 40–60% improvement in query latency through smaller index footprints
+                and improved RAM utilization, while keeping archived data queryable for end users
+                and available for downstream data lake ingestion.
               </ListItem>
               <ListItem>
-                Developed a Python FastAPI service that utilizes ONVIF and DVRIP protocols to allow
-                discovering, configuring, and managing IP cameras from our client application via
-                HTTP.
+                Develop APIs in Go and Chi to discover, configure, and manage fleets of third-party
+                cameras via ONVIF and HTTP, replacing a manual per-device workflow that took ~2
+                engineer-days per facility with a single-click bulk provisioning pipeline that
+                processes 100+ cameras concurrently in under a minute.
               </ListItem>
               <ListItem>
-                Developed tooling to record and replay high-volume MQTT traffic (more than 60K
-                messages/min) from production environments, enabling realistic load testing and
-                earlier detection of race conditions and performance regressions.
+                Build Go-based tooling to record and replay high-volume production MQTT traffic
+                (60K+ messages/min), enabling realistic load testing, early detection of race
+                conditions, and improved operational reliability.
               </ListItem>
               <ListItem>
-                Added backend data lifecycle management to our Node.js application, reducing active
-                dataset size, improving query performance, and preserving historical data for
-                downstream analytics.
+                Optimize React application rendering and data flow to eliminate unnecessary
+                network-driven re-renders, improving responsiveness and reducing mobile battery
+                drain rate by ~75% under high event throughput.
               </ListItem>
               <ListItem>
-                Optimized frontend rendering and data flow to reduce unnecessary network-driven
-                updates, significantly improving responsiveness and mobile battery life under high
-                event throughput.
+                Co-develop an automated visual regression testing framework, replacing manual
+                screen-by-screen QA with automated screenshot-based detection of UI and state
+                regressions, eliminating a class of bugs that previously reached production.
               </ListItem>
               <ListItem>Technology: React, Node.js, MongoDB, Docker, Kubernetes</ListItem>
               <ListItem>Languages: TypeScript, Go, Python</ListItem>
